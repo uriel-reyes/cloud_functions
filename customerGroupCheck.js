@@ -1,4 +1,4 @@
-exports.checkCustomerGroupBeforeAddingProduct = (req, res) => {
+exports.customerGroupCheck = (req, res) => {
     // Use an ID from your project for the retailer customer group!
     const retailerCustomerGroupId = "b0ca3896-936b-41fe-a5a4-f2dfdbde52b8";
 
